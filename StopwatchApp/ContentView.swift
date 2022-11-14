@@ -20,29 +20,9 @@ struct ContentView: View {
                 Text("00:00.00")
                     .font(Font.system(size: 90, weight: .thin))
                     .foregroundColor(.white)
+                
                 // create a circular button
-                ZStack {
-                    
-                    //first layer
-                    Circle()
-                        .foregroundColor(.gray)
-                        .frame(width:100)
-                    
-                    //second layer
-                    Circle()
-                        .foregroundColor(.black)
-                        .frame(width:93)
-                    
-                    //third layer
-                    Circle()
-                        .foregroundColor(.gray)
-                        .frame(width:89)
-                    
-                    //forth layer
-                    Text("reset")
-                        .foregroundColor(.white)
-                        .font(.title2)
-                }
+               CircleButtomView()
             }
             .padding()
         }
