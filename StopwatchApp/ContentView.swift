@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     let badgeView1 = Text("00:00.10")
             .foregroundColor(.white)
@@ -94,7 +95,6 @@ struct ContentView: View {
         }
     }
 struct ContentView2: View {
-    let badge1 = Text("9.22")
     var body: some View {
         VStack(alignment: .leading){
             HStack {
@@ -106,6 +106,7 @@ struct ContentView2: View {
                     .foregroundColor(.orange)
                     .padding(10)
                 
+                
             }
             Text("World Clock")
                 .font(.largeTitle)
@@ -113,9 +114,25 @@ struct ContentView2: View {
                 .padding(10)
             List{
                 Group{
+                    HStack {
+                        VStack(alignment:.leading) {
+                            Text("Today,-3HRS")
+                                .foregroundColor(Color("Light Grey"))
+                                
+                            Text("Vancover")
+                                .font(.largeTitle)
+                                .padding(.top, -8.0)
+                        }
+                        Spacer()
+                        
+                        Badge1()
+                    }
+                    
                     
                 }
             }
+            .padding(.leading, -10.0)
+        .listStyle(.plain)
         }
     }
     
