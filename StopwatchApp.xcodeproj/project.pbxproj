@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E90A17D2922E636003C4CDF /* StopwatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90A17C2922E636003C4CDF /* StopwatchAppApp.swift */; };
+		6E4DE45D2927C20D00F0ADA3 /* AppTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DE45C2927C20D00F0ADA3 /* AppTitleView.swift */; };
+		6E4DE45F2927C26E00F0ADA3 /* StopwatchAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DE45E2927C26E00F0ADA3 /* StopwatchAppView.swift */; };
+		6E4DE4612927C3FC00F0ADA3 /* StopwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4DE4602927C3FC00F0ADA3 /* StopwatchApp.swift */; };
 		6E90A17F2922E636003C4CDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90A17E2922E636003C4CDF /* ContentView.swift */; };
 		6E90A1812922E638003C4CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E90A1802922E638003C4CDF /* Assets.xcassets */; };
 		6E90A1842922E638003C4CDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E90A1832922E638003C4CDF /* Preview Assets.xcassets */; };
 		6E90A18B2922E954003C4CDF /* CircleButtomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E90A18A2922E954003C4CDF /* CircleButtomView.swift */; };
-		6EFF2D82292550A900930FF5 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF2D81292550A900930FF5 /* SwiftUIView.swift */; };
-		6EFF2D84292551F100930FF5 /* DuckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF2D83292551F100930FF5 /* DuckView.swift */; };
-		6EFF2D862925550700930FF5 /* GlobalTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF2D852925550700930FF5 /* GlobalTime.swift */; };
+		6EFF2D862925550700930FF5 /* GlobalTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFF2D852925550700930FF5 /* GlobalTimeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E4DE45C2927C20D00F0ADA3 /* AppTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTitleView.swift; sourceTree = "<group>"; };
+		6E4DE45E2927C26E00F0ADA3 /* StopwatchAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchAppView.swift; sourceTree = "<group>"; };
+		6E4DE4602927C3FC00F0ADA3 /* StopwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchApp.swift; sourceTree = "<group>"; };
 		6E90A1792922E636003C4CDF /* StopwatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopwatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E90A17C2922E636003C4CDF /* StopwatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchAppApp.swift; sourceTree = "<group>"; };
 		6E90A17E2922E636003C4CDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6E90A1802922E638003C4CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E90A1832922E638003C4CDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6E90A18A2922E954003C4CDF /* CircleButtomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtomView.swift; sourceTree = "<group>"; };
-		6EFF2D81292550A900930FF5 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		6EFF2D83292551F100930FF5 /* DuckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckView.swift; sourceTree = "<group>"; };
-		6EFF2D852925550700930FF5 /* GlobalTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTime.swift; sourceTree = "<group>"; };
+		6EFF2D852925550700930FF5 /* GlobalTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTimeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +43,7 @@
 		6E90A1702922E636003C4CDF = {
 			isa = PBXGroup;
 			children = (
+				6E4DE4602927C3FC00F0ADA3 /* StopwatchApp.swift */,
 				6E90A17B2922E636003C4CDF /* StopwatchApp */,
 				6E90A17A2922E636003C4CDF /* Products */,
 			);
@@ -59,14 +60,9 @@
 		6E90A17B2922E636003C4CDF /* StopwatchApp */ = {
 			isa = PBXGroup;
 			children = (
-				6E90A17C2922E636003C4CDF /* StopwatchAppApp.swift */,
 				6E90A17E2922E636003C4CDF /* ContentView.swift */,
-				6EFF2D852925550700930FF5 /* GlobalTime.swift */,
-				6EFF2D81292550A900930FF5 /* SwiftUIView.swift */,
 				6E90A1802922E638003C4CDF /* Assets.xcassets */,
 				6E90A1822922E638003C4CDF /* Preview Content */,
-				6E90A18A2922E954003C4CDF /* CircleButtomView.swift */,
-				6EFF2D83292551F100930FF5 /* DuckView.swift */,
 			);
 			path = StopwatchApp;
 			sourceTree = "<group>";
@@ -74,6 +70,10 @@
 		6E90A1822922E638003C4CDF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				6E4DE45E2927C26E00F0ADA3 /* StopwatchAppView.swift */,
+				6E90A18A2922E954003C4CDF /* CircleButtomView.swift */,
+				6E4DE45C2927C20D00F0ADA3 /* AppTitleView.swift */,
+				6EFF2D852925550700930FF5 /* GlobalTimeView.swift */,
 				6E90A1832922E638003C4CDF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -150,11 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E90A17F2922E636003C4CDF /* ContentView.swift in Sources */,
-				6E90A17D2922E636003C4CDF /* StopwatchAppApp.swift in Sources */,
-				6EFF2D82292550A900930FF5 /* SwiftUIView.swift in Sources */,
-				6EFF2D84292551F100930FF5 /* DuckView.swift in Sources */,
+				6E4DE4612927C3FC00F0ADA3 /* StopwatchApp.swift in Sources */,
+				6E4DE45F2927C26E00F0ADA3 /* StopwatchAppView.swift in Sources */,
+				6E4DE45D2927C20D00F0ADA3 /* AppTitleView.swift in Sources */,
 				6E90A18B2922E954003C4CDF /* CircleButtomView.swift in Sources */,
-				6EFF2D862925550700930FF5 /* GlobalTime.swift in Sources */,
+				6EFF2D862925550700930FF5 /* GlobalTimeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

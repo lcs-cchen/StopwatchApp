@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GlobalTime: View {
+struct GlobalTimeView: View {
     let time : String
     let timeNum : String
     let location : String
@@ -42,7 +42,7 @@ struct GlobalTime: View {
 
 struct GlobalTime_Previews: PreviewProvider {
     static var previews: some View {
-        GlobalTime(time: "Today,-3HRS", timeNum: "9:22", location: "Vancover", dailyTime: "PM")
+        GlobalTimeView(time: "Today,-3HRS", timeNum: "9:22", location: "Vancover", dailyTime: "PM")
    
     }
 }
