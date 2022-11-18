@@ -33,12 +33,20 @@ struct AlarmView: View {
             HStack{
                 VStack{
                     Text("No Alarm")
-                        .font(Font.system(size: 50))
+                        .font(Font.system(size: 50, weight: .thin))
+                        .padding(.horizontal, 10)
+                        .foregroundColor(Color("Light Grey"))
+                    Text("Tommorow Morning")
+                        .font(Font.system(size: 15, weight: .thin))
+                        .padding(.leading, -20.0)
                     
                     }
+                Spacer()
+               
+
+                }
                 }
         }
     }
-}
 
 
