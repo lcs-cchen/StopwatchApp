@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct Badge1: View {
+    let time : String
     var body: some View {
         HStack(alignment: .firstTextBaseline){
-            Text("9:22")
+            Text(time)
                 .font(Font.system(size: 65, weight: .thin))
                 .foregroundColor(.white)
                 .padding(-5)
@@ -22,6 +23,6 @@ struct Badge1: View {
 }
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        Badge1()
+        Badge1(time: "9:22")
     }
 }

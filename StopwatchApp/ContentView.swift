@@ -114,21 +114,11 @@ struct ContentView2: View {
                 .padding(10)
             List{
                 Group{
-                    HStack {
-                        VStack(alignment:.leading) {
-                            Text("Today,-3HRS")
-                                .foregroundColor(Color("Light Grey"))
-                                
-                            Text("Vancover")
-                                .font(.largeTitle)
-                                .padding(.top, -8.0)
-                        }
-                        Spacer()
-                        
-                        Badge1()
-                    }
-                    
-                    
+                    GlobalTime(time: "Today,-3HRS", timeNum: "9:22", location: "Vancover", dailyTime: "PM")
+                    GlobalTime(time: "Today, +0HRS", timeNum: "12:22", location: "Toronto", dailyTime: "PM")
+                    GlobalTime(time: "Today, +13HRS", timeNum: "1:22", location: "Beijing", dailyTime: "AM")
+                    GlobalTime(time: "Today, +12HRS", timeNum: "2:22", location: "Tokyo", dailyTime: "AM")
+                    GlobalTime(time: "Today, +12HRS", timeNum: "4:22", location: "Sydney", dailyTime: "AM")
                 }
             }
             .padding(.leading, -10.0)
